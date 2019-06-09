@@ -2,7 +2,7 @@ package entity;
 
 public class Transferencia extends Transacao{
 	
-	Conta contaDestino;
+	private Conta contaDestino;
 	
 	public Transferencia(Conta contaDestino, double valor) {
 		super(valor);

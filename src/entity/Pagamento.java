@@ -2,7 +2,7 @@ package entity;
 
 public class Pagamento extends Transacao{
 	
-	String boleto;
+	private String boleto;
 	
 	public Pagamento(String boleto, double valor) {
 		super(valor);

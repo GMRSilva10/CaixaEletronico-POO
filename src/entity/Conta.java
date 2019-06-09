@@ -4,12 +4,12 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class Conta {
-	int numero;
-	String senha;
-	Cliente cliente;
-	double saldo;
-	Date dataAbertura;
-	ArrayList<Transacao> historico = new ArrayList<Transacao>();
+	private int numero;
+	private String senha;
+	private Cliente cliente;
+	private double saldo;
+	private Date dataAbertura;
+	private ArrayList<Transacao> historico = new ArrayList<Transacao>();
 
 	public boolean efetuarSaque(double valor) {
 		if (this.saldo >= valor) {

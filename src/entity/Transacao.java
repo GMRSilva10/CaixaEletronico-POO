@@ -4,8 +4,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public abstract class Transacao {
-	double valor;
-	Date data;
+	private double valor;
+	private Date data;
 	
 	public Transacao(double valor){
 		this.valor = valor;
